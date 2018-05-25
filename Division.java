@@ -8,7 +8,7 @@ public class Division extends CalculatriceAbs {
 	}
 
 	@Override
-	public double opertion() throws ArithmeticException {
+	public double operation() throws ArithmeticException {
 		if (b == 0) {
 			throw new ArithmeticException(ExceptionCalculatrice.DIVISION_BY_ZERO.getMessage());
 			

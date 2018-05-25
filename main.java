@@ -23,23 +23,23 @@ public class main {
 			case 1:
 				((CalculatriceAbs) add).setA(a);
 				((CalculatriceAbs) add).setB(b);
-				System.out.println(add.opertion());
+				System.out.println(add.operation());
 				break;
 			case 2:
 				((CalculatriceAbs) sous).setA(a);
 				((CalculatriceAbs) sous).setB(b);
-				System.out.println(sous.opertion());
+				System.out.println(sous.operation());
 				break;
 			case 3:
 				((CalculatriceAbs) mul).setA(a);
 				((CalculatriceAbs) mul).setB(b);
-				System.out.println(mul.opertion());
+				System.out.println(mul.operation());
 				break;
 			case 4:
 				((CalculatriceAbs) div).setA(a);
 				((CalculatriceAbs) div).setB(b);
 				try{
-					System.out.println(div.opertion());
+					System.out.println(div.operation());
 				}catch(ArithmeticException e){
 					System.out.println(e.getMessage());
 				}

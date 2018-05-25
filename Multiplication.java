@@ -10,7 +10,7 @@ public class Multiplication extends CalculatriceAbs {
 	}
 
 	@Override
-	public double opertion() {
+	public double operation() {
 		return a * b;
 	}
 

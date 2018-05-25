@@ -2,7 +2,7 @@ package architectureOO;
 
 public interface Calculatrice {
 	
-	double opertion() throws ArithmeticException;
+	double operation() throws ArithmeticException;
 	
 	
 
